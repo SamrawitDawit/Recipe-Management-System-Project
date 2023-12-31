@@ -1,5 +1,6 @@
 # Recipe-Management-System-Project
-project title - Recipe management System
+project title - RecipeSage
+Description: RecipeSage is a web application that allows chefs to create, update, and delete recipes, and users to explore a vast collection of recipes and access detailed information easily.
 Members:
 Name               ID
 Abreham worke....UGR/2898/13
