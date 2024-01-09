@@ -1,6 +1,6 @@
-# Recipe-Management-System-Project
-project title - RecipeSage
-Description: RecipeSage is a web application that allows chefs to create, update, and delete recipes, and users to explore a vast collection of recipes and access detailed information easily.
+# Pharmacy Management System 
+project title - PharmaLink
+Description:  PharmLink is a web application that enables  pharmacists  to manage their medication inventory by adding, deleting, and updating medicine information, while users can  access the comprehensive list of medicines provided by pharmacists.  
 Members:
 Name               ID
 Abreham worke....UGR/2898/13
