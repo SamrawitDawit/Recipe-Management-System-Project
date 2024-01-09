@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+  
+  <link rel="stylesheet" href="bulma.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="hero is-fullheight is-bold">
+  <h1 class="h1 is-size-1 has-text-centered ">Registration form</h1>
+  <div class="hero-body">
+    <img class="bod" src="file:///C:/Users/CHEMIKAL E/Desktop/loginweb/image/miti-qYreP9QOdrk-unsplash.jpg" alt="">
+      
+    <div class="container has-text-centered">
+      
+      <div class="columns is-centered mt-auto">
+        <div class="column is-half">
+          <button class="toggle-form button  is-success is-large " onclick="toggleForm('adminForm')">Sign up as a user</button>
+          <form class="main__form" id="adminForm">
+            <div class="field">
+              <label for="adminName" class="label has-text-black mt-5">Name:</label>
+              <div class="control">
+                <input type="text" id="adminName" name="adminName" class="custom-input-width" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="adminEmail" class="label has-text-black">Email:</label>
+              <div class="control">
+                <input type="email" id="adminEmail" name="adminEmail" class="custom-input-width" required>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="userPassword" class="label has-text-black">Password:</label>
+              <div class="control">
+                <input type="password" id="userPassword" name="userPassword" class="custom-input-width" required>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="adminPhoneNumber" class="label has-text-black">Phone Number:</label>
+              <div class="control">
+                <input type="tel" id="adminPhoneNumber" name="adminPhoneNumber" class="custom-input-width" required>
+              </div>
+            </div>
+            <button class="main__submit-button button mt-5 mb-5 is-black   " type="button" onclick="submitForm('adminForm')">Sign up</button>
+         
+            <!-- Admin form fields -->
+            
+          </form>
+        </div>
+        <div class="column is-half">
+          <button class="toggle-form button is-success is-large" onclick="toggleForm('userForm')">Sign up as a sheif</button>
+          <form class="main__form" id="userForm">
+
+            <div class="field">
+              <label for="userName" class="label has-text-black ">Name:</label>
+              <div class="control">
+                <input type="text" id="userName" name="userName" class="custom-input-width" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="userEmail" class="label has-text-black">Business Email:</label>
+              <div class="control">
+                <input type="email" id="userEmail" name="userEmail" class="custom-input-width" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="userPassword" class="label has-text-black">Password:</label>
+              <div class="control">
+                <input type="password" id="userPassword" name="userPassword" class="custom-input-width" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="userPhoneNumber" class="label has-text-black">Phone Number:</label>
+              <div class="control">
+                <input type="tel" id="userPhoneNumber" name="userPhoneNumber" class="custom-input-width" required>
+              </div>
+            </div>
+             
+            <div>
+              <label for="fileInput"  class="label has-text-black">Choose a file:</label>
+              <div>             
+                <input type="file" id="fileInput" name="fileInput" accept=".pdf, .doc, .docx">  
+              </div>
+            </div>
+            
+            
+            
+
+
+            <!-- Chef form fields -->
+            <button class="main__submit-button button mt-5 mb-5 is-black" type="button" onclick="submitForm('userForm')">Sign up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

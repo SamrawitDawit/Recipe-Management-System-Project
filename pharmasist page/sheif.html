@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bulma.css">
+  <link rel="stylesheet" href="sheif.css">
+  
+  <title>shief Sign Up</title>
+</head>
+<body>
+
+  <div class="container has-text-centered mt-4">
+    <h1 class="title">Welcome shief!</h1>
+    <button class="button is-success mt-6 mb-6 is-large" onclick="showAddRecipeForm()">Add Recipe</button>
+    <div id="recipeForm" style="display: none;">
+        <div class="field">
+            <label class="label" for="recipeName">Recipe Name:</label>
+            <div class="control">
+                <input class="input" type="text" id="recipeName" required>
+            </div>
+        </div>
+        <div class="field">
+            <label class="label" for="ingredients">Ingredients:</label>
+            <div class="control mb-6">
+                <textarea class="textarea" id="ingredients" rows="4" required></textarea>
+            </div>
+        </div>
+
+        <button class="button is-black mt-4 mb-6 is-large" onclick="addRecipe()">Submit Recipe</button>
+    </div>
+
+
+    <div id="sampleFood" class="columns is-multiline is-vcentered is-centered">
+
+      <div class="column is-one-third">
+        <div class="food-item">
+          <button class="buttonb is-success">
+            <h3 class="is-size-4 has-text-white">Shiro </h3>
+          </button>
+          <p class=" has-text-centered mt-4"><strong>Ingredients:</strong> salt, onion, shiro powder, olive oil</p>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="food-item">
+          <button class="buttonb is-success">
+            <h3 class="is-size-4 has-text-white">Kitffo</h3>
+          </button>
+          <p  class=" has-text-centered mt-4"><strong>Ingredients:</strong> raw meat , awaze , salt , injera , butter</p>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="food-item">
+          <button class="buttonb is-success">
+            <h3 class="is-size-4 has-text-white">Doro Wet </h3>
+          </button>
+          <p class=" has-text-centered mt-4"><strong>Ingredients:</strong> chicken , berbere spice , salt , butter ,boild egg </p>
+        </div>
+      </div>
+
+      <div class="column is-one-third">
+        <div class="food-item">
+          <button class="buttonb is-success">
+            <h3 class="is-size-4 has-text-white">Spaghetti Bolognese</h3>
+          </button>
+          <p class=" has-text-centered mt-4"><strong>Ingredients:</strong>Ground beef, onion, garlic, tomatoes, spaghetti, olive oil</p>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="food-item">
+          <button class="buttonb is-success">
+            <h3 class="is-size-4 has-text-white">Grilled Salmon</h3>
+          </button>
+          <p class=" has-text-centered mt-4"><strong>Ingredients:</strong> Salmon fillet, lemon, olive oil, salt, pepper, dill</p>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="food-item">
+          <button class="buttonb is-success">
+            <h3 class="is-size-4 has-text-white">Vegetarian Stir-Fry</h3>
+          </button>
+          <p class=" has-text-centered mt-4"><strong>Ingredients:</strong>Tofu, broccoli, bell peppers, soy sauce, ginger, garlic</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="shief.js"></script>
+</body>
+</html>
